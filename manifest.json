@@ -3,8 +3,8 @@
   "name": "Audioteka Better Search",
   "description": "Extension improving search in audioteka.pl",
   "version": "1.0",
-  "action": {
-    "default_icon": "icon.png"
+  "icons": {
+    "128": "icon.png"
   },
   "content_scripts": [
     {
