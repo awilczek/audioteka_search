@@ -1,5 +1,7 @@
 ## Extension improving search in audioteka.pl
 
+https://chromewebstore.google.com/detail/audioteka-better-search/mhohhmegfmodnmcpgdpfgdkkabkfebpe?hl=pl
+
 Audioteka is a great portal, however it lacks some basic filtering.
 Moreover, the list of books is not loaded fully, so one has to click "load more" button tens of times.
 
