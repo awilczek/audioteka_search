@@ -3,7 +3,7 @@ console.log('Audioteka Better Search: Running...');
 function addHub () {
     const topBar = document.querySelector("#layout-top-bar");
     const centerDiv = document.createElement("div");
-    centerDiv.style = "display: flex; justify-content: center;"
+    centerDiv.style = "display: flex; justify-content: center; font-size: 1.5em;"
     const form = document.createElement("form");
     form.style = "display: inline-flex";
     centerDiv.appendChild(form);
@@ -20,6 +20,7 @@ function addHub () {
     const minPriceInput = document.createElement("input");
     minPriceInput.type = "number";
     minPriceInput.min = "0";
+    minPriceInput.max = "1000";
     minPriceInput.onchange = refreshList;
     minPriceDiv.appendChild(minPriceInput);
     form.appendChild(minPriceDiv);
@@ -32,6 +33,7 @@ function addHub () {
     const maxPriceInput = document.createElement("input");
     maxPriceInput.type = "number";
     maxPriceInput.min = "0";
+    maxPriceInput.max = "1000";
     maxPriceInput.onchange = refreshList;
     maxPriceDiv.appendChild(maxPriceInput);
     form.appendChild(maxPriceDiv);

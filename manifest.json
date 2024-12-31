@@ -12,7 +12,7 @@
         "script.js"
       ],
       "matches": [
-        "https://audioteka.com/pl/audiobooks/*"
+        "https://audioteka.com/pl/katalog/*"
       ]
     }
   ]
