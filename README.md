@@ -14,4 +14,4 @@ Please refresh the subpage if it seems not to work.
 Extensions works on the following paths: /katalog/ and /cykl/.
 
 #### Preview:
-![Zrzut ekranu 2024-01-13 o 20 22 46](https://github.com/awilczek/audioteka_search/assets/1419645/0577244b-4c7c-4113-b60a-b1b95a9143fb)
+![preview](./preview.png)
