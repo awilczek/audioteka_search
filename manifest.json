@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Audioteka Better Search",
   "description": "Extension improving search in audioteka.pl",
-  "version": "1.1",
+  "version": "1.2",
   "icons": {
     "128": "icon.png"
   },
@@ -12,7 +12,8 @@
         "script.js"
       ],
       "matches": [
-        "https://audioteka.com/pl/katalog/*"
+        "https://audioteka.com/pl/katalog/*",
+        "https://audioteka.com/pl/cykl/*"
       ]
     }
   ]

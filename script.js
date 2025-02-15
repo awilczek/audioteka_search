@@ -92,6 +92,7 @@ function addHub () {
         }
     }
 
+    setTimeout(() => window.scrollTo(0,0), 500);
     console.log('Audioteka Better Search: Hub added.');
 }
 
